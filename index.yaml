@@ -767,6 +767,27 @@ entries:
   jiralert:
   - apiVersion: v2
     appVersion: "1.2"
+    created: "2023-02-10T16:52:53.262072178Z"
+    description: A Helm chart for Kubernetes to install jiralert
+    digest: 56f0f7670d5e55790d425c99f95685d9496c1e2e25a3092411e53c7d6aec195e
+    home: https://github.com/prometheus-community/jiralert
+    keywords:
+    - monitoring
+    - prometheus
+    - alerting
+    - jiralert
+    maintainers:
+    - email: github@jkroepke.de
+      name: jkroepke
+    - email: zanhsieh@gmail.com
+      name: zanhsieh
+    name: jiralert
+    type: application
+    urls:
+    - https://github.com/JupiterOne/prometheus-community-helm-charts/releases/download/jiralert-1.1.0/jiralert-1.1.0.tgz
+    version: 1.1.0
+  - apiVersion: v2
+    appVersion: "1.2"
     created: "2023-02-10T03:16:47.779734952Z"
     description: A Helm chart for Kubernetes to install jiralert
     digest: 1ecd9e6890443a80ac1383d6250a9c3a921d0cb9c3981ac55218faf83cc0a32b
@@ -35082,6 +35103,30 @@ entries:
   prometheus-cloudwatch-exporter:
   - apiVersion: v1
     appVersion: 0.15.1
+    created: "2023-02-10T16:52:53.417251109Z"
+    description: A Helm chart for prometheus cloudwatch-exporter
+    digest: 6b62246e4de721a77176f22e58f41df3b472d7f64e11512bc33964e01de80ab0
+    home: https://github.com/prometheus/cloudwatch_exporter
+    keywords:
+    - aws
+    - cloudwatch
+    - prometheus
+    - exporter
+    maintainers:
+    - email: gianrubio@gmail.com
+      name: gianrubio
+    - email: mail@torstenwalter.de
+      name: torstenwalter
+    - email: asher@asherfoa.com
+      name: asherf
+    name: prometheus-cloudwatch-exporter
+    sources:
+    - https://github.com/prometheus/cloudwatch_exporter
+    urls:
+    - https://github.com/JupiterOne/prometheus-community-helm-charts/releases/download/prometheus-cloudwatch-exporter-0.24.0/prometheus-cloudwatch-exporter-0.24.0.tgz
+    version: 0.24.0
+  - apiVersion: v1
+    appVersion: 0.15.1
     created: "2023-02-10T03:16:49.108865151Z"
     description: A Helm chart for prometheus cloudwatch-exporter
     digest: 553799b2634bbcdbbd881c3cf42c85c381c159b744436ad9e6c56cb547e9db5a
@@ -57240,4 +57285,4 @@ entries:
     urls:
     - https://prometheus-community.github.io/helm-charts/prometheus-to-sd-0.1.0.tgz
     version: 0.1.0
-generated: "2023-02-10T16:51:56.391151578Z"
+generated: "2023-02-10T16:52:53.420479439Z"
