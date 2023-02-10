@@ -57,6 +57,10 @@ securityContext:
 
 additionalPeers: []
 
+## Additional InitContainers to initialize the pod
+##
+extraInitContainers: []
+
 livenessProbe:
   httpGet:
     path: /
@@ -194,7 +198,7 @@ configmapReload:
   ##
   image:
     repository: jimmidyson/configmap-reload
-    tag: v0.5.0
+    tag: v0.8.0
     pullPolicy: IfNotPresent
 
   # containerPort: 9533
@@ -206,3 +210,19 @@ configmapReload:
 
 templates: {}
 #   alertmanager.tmpl: |-
+
+## Optionally specify extra list of additional volumeMounts
+extraVolumeMounts: []
+  # - name: extras
+  #   mountPath: /usr/share/extras
+  #   readOnly: true
+
+## Optionally specify extra list of additional volumes
+extraVolumes: []
+  # - name: extras
+  #   emptyDir: {}
+
+## Optionally specify extra environment variables to add to alertmanager container
+extraEnv: []
+  # - name: FOO
+  #   value: BAR
