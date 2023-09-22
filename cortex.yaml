@@ -1,0 +1,12 @@
+openapi: "3.0.0"
+info:
+  title: "Prometheus Community Helm Charts"
+  description: "Automatically generated package.json, please edit manually"
+  x-cortex-git:
+    github:
+      repository: "JupiterOne/prometheus-community-helm-charts"
+  x-cortex-owners:
+    - type: "group"
+      name: "JupiterOne/sre"
+  x-cortex-service-groups: "tier-4"
+  x-cortex-tag: "prometheus-community-helm-charts"
