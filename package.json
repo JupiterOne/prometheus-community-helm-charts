@@ -1,0 +1,10 @@
+{
+  "name": "prometheus-community-helm-charts",
+  "version": "0.0.0",
+  "description": "Automatically generated package.json, please edit manually",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JupiterOne/prometheus-community-helm-charts.git"
+  },
+  "license": "UNLICENSED"
+}
